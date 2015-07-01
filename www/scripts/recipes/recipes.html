@@ -4,8 +4,8 @@
     <input class="form-control" ng-model="search" type="text">
   </div>
   <div ng-repeat="x in model.recipes | filter:search" >
-    <a href="#" class="btn btn-primary btn-lg main-btn" onclick="window.open('https://s3.amazonaws.com/weissrecipes/Soups/soup1.jpg', '_blank', 'location=no');">{{x}}</a>
-    <button ui-sref="recipe({ recipeID: x })" type="button" class="btn btn-primary btn-lg main-btn">{{x}}</button>
+    <a href="#" class="btn btn-primary btn-lg main-btn" onclick="window.open('https://s3.amazonaws.com/weissrecipes/Soups/1.jpg', '_blank', 'location=no');">{{x.name}}</a>
+    <!-- <button ui-sref="recipe({ recipeID: x })" type="button" class="btn btn-primary btn-lg main-btn">{{x.name}}</button> -->
 
   </div>
 

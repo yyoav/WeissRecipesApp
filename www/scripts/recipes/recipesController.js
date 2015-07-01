@@ -9,13 +9,13 @@ weissRecipesApp.controller('recipesController', ['$scope', '$stateParams','$http
 
   };
 
-   getRecipes();
-  // getRecipes().then(function(recipes){
-  ////   model.recipes = recipes;
-  // });
+  // getRecipes();
+  getRecipes().then(function(recipes){
+     model.recipes = recipes;
+  });
 
    function getRecipes(){
-    //   var defer = $q.defer();
+      var defer = $q.defer();
 
 
       //  $http.get({
@@ -25,14 +25,14 @@ weissRecipesApp.controller('recipesController', ['$scope', '$stateParams','$http
       //  })
        $http.get('https://s3.amazonaws.com/weissrecipes/Soups/soupslist.json')
       .success(function(data){
-         model.recipes = data;
-    //          defer.resolve(data);
+        // model.recipes = data;
+              defer.resolve(data);
        })
        .error(function(err, status){
            console.log(err, status);
        });
 
-    //   return defer.promise;
+       return defer.promise;
    }
 
   $scope.model = model;
