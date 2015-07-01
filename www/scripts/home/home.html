@@ -1,6 +1,6 @@
 <h2> מתכונים משפחת ווייס </h2>
-  <div ng-repeat="x in categories" >
-      <button ui-sref="recipes({ categoryID: x })" type="button" class="btn btn-primary btn-lg main-btn">{{x}}</button>
+  <div ng-repeat="x in model.categories" >
+      <button ui-sref="recipes({ categoryName: x.name, categoryPath: x.path })" type="button" class="btn btn-primary btn-lg main-btn">{{x.name}}</button>
 
   </div>
 

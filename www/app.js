@@ -11,9 +11,13 @@ weissRecipesApp.config(function($stateProvider, $urlRouterProvider) {
             controller: 'mainController'
         })
         .state('recipes', {
-            url: '/recipes/:categoryID',
+            url: '/recipes/',
             templateUrl: 'scripts/recipes/recipes.html',
-            controller: 'recipesController'
+            controller: 'recipesController',
+            params: {
+              categoryName: null,
+              categoryPath: null
+            }
         })
         .state('recipe', {
             url: '/recipe/:recipeID',
