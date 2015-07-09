@@ -1,5 +1,5 @@
 
-var weissRecipesApp = angular.module('weissRecipesApp', ['ui.router']);
+var weissRecipesApp = angular.module('weissRecipesApp', ['ui.router','ngResource']);
 
 weissRecipesApp.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home');

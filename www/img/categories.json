@@ -1,0 +1,63 @@
+﻿[
+      {
+        "id": 1,
+        "name": "סלטים",
+		"path":" ",
+		"img":"img/Salads.jpg"
+
+      },
+      {
+        "id": 2,
+        "name": "דגים",
+		"path":" ",
+		"img":"img/fish.jpg"
+      },
+      {
+        "id": 3,
+        "name": "מרקים",
+		"path":"Soups/soupslist.json",
+		"img":"img/soups.jpg"
+      },
+      {
+        "id": 4,
+        "name": "בשרים",
+		"path":" ",
+		"img":"img/Meat.jpg"
+      },
+      {
+        "id": 5,
+        "name": "תוספות",
+		"path":" " ,
+		"img":"img/extra.jpg"
+      },
+      {
+        "id": 6,
+        "name": "פשטידות",
+		"path":" ",
+		"img":"img/Pies.jpg"
+      },
+      {
+        "id": 7,
+        "name": "מאפים",
+		"path":" ",
+		"img":"img/Pastries.jpg"
+      },
+      {
+        "id": 8,
+        "name": "עוגות",
+		"path":" ",
+		"img":"img/Cakes.jpg"
+      },
+      {
+        "id": 9,
+        "name": "קינוחים",
+		"path":" ",
+		"img":"img/Desserts.jpg"
+      },
+      {
+        "id": 10,
+        "name": "פסח",
+		"path":" ",
+		"img":"img/Passover.jpg"
+      }
+]
