@@ -2,14 +2,14 @@
       {
         "id": 1,
         "name": "סלטים",
-		"path":" ",
+		"path":"Salads/saladslist.json",
 		"img":"img/Salads.jpg"
 
       },
       {
         "id": 2,
         "name": "דגים",
-		"path":" ",
+		"path":"Fish/fishlist.json",
 		"img":"img/fish.jpg"
       },
       {
@@ -21,43 +21,43 @@
       {
         "id": 4,
         "name": "בשרים",
-		"path":" ",
+		"path":"Meat/meatlist.json",
 		"img":"img/Meat.jpg"
       },
       {
         "id": 5,
         "name": "תוספות",
-		"path":" " ,
+		"path":"Extra/extralist.json" ,
 		"img":"img/extra.jpg"
       },
       {
         "id": 6,
         "name": "פשטידות",
-		"path":" ",
+		"path":"Pies/pieslist.json",
 		"img":"img/Pies.jpg"
       },
       {
         "id": 7,
         "name": "מאפים",
-		"path":" ",
+		"path":"Pastries/pastrieslist.json",
 		"img":"img/Pastries.jpg"
       },
       {
         "id": 8,
         "name": "עוגות",
-		"path":" ",
+		"path":"Cakes/cakeslist.json",
 		"img":"img/Cakes.jpg"
       },
       {
         "id": 9,
         "name": "קינוחים",
-		"path":" ",
+		"path":"Desserts/dessertslist.json",
 		"img":"img/Desserts.jpg"
       },
       {
         "id": 10,
         "name": "פסח",
-		"path":" ",
+		"path":"Passover/passoverlist.json",
 		"img":"img/Passover.jpg"
       }
 ]

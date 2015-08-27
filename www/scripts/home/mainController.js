@@ -1,7 +1,6 @@
 
 weissRecipesApp.controller('mainController', ['$scope','recipesService','jsonService', function($scope,recipesService,jsonService) {
 
-  //$scope.categories=['סלטים','דגים','מרקים','בשרים','תוספות','פשטידות','מאפים','עוגות','קינוחים','פסח'];
 
   var model = {
     categories: []
