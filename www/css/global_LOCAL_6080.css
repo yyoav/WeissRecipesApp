@@ -1,0 +1,148 @@
+h2.text-header{
+    text-align: center;
+    font-weight: bold;
+}
+a {
+  font-size: 11px;
+  color: #0091CE;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ol, ul {
+  list-style: none;
+  padding-right: 20px;
+}
+
+ul.category-list{
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+ul.category-list li {
+  display: block;
+  float: right;
+  width: 139px;
+  height: 100px;
+  margin: 0 10px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: space;
+  background-size: cover;
+}
+
+ul.category-list li>a {
+  display: block;
+  width: 80px;
+  height: 86px;
+  text-align: center;
+}
+
+ul.category-list li img {
+  width: 134px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+ul.category-list li>span {
+  float: left;
+  width: 140px;
+  text-align: center;
+  margin-top: -22px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*
+.recipe-name-col, .recipe-madeby-col, .recipe-name-col-header, .recipe-madeby-col-header{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: right;
+  font-size: 20px;
+}
+
+.recipe-name-col, .recipe-name-col-header{
+  width: 75%;
+
+}
+.recipe-madeby-col, .recipe-madeby-col-header{
+    width: 25%;
+
+}
+.recipe-madeby-col-header, .recipe-name-col-header{
+  background-color: rgb(127, 140, 141);
+  color: rgb(189, 195, 199);
+font-size: 24px;
+
+}*/
+
+.recipe-table{
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: bold;
+  font-size: 18px;
+  color: #6b6b6b;
+}
+.recipe-title-tr{
+  height: 70px;
+  color: #f6f3f7;
+  background: #418a95;
+  border: 0px solid;
+  font-size: 34px;
+
+}
+.recipe-table td {
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+
+ .recipe-header-tr {
+  height: 30px;
+  background: #63acb7;
+  color: #f6f3f7;
+  font-size: 24px;
+  border: 0px solid;
+}
+
+.recipe-input{
+  display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.recipe-title-col{
+  width: 50%;
+  padding-right: 25px;
+}
+.recipe-search-col
+{
+  width: 50%;
+  padding-left: 25px;
+}
+
+.recipe-madeby-col, .recipe-madeby-header-col{
+  width: 25%;
+  padding-left: 25px;
+}
+.recipe-name-col, .recipe-name-header-col
+{
+  width: 75%;
+  padding-right: 25px;
+}
+.recipe-name-col:active, .recipe-madeby-col:active{
+   background: gray;
+}
+.recipe-name-header-col:active, .recipe-madeby-header-col:active{
+  background: #418a95;
+}
