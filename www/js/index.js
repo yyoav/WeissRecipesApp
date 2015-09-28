@@ -35,6 +35,8 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         window.open = cordova.InAppBrowser.open;
+        window.cache.clear( success, error );
+        window.cache.cleartemp(); // 
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
