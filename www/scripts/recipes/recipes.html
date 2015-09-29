@@ -1,19 +1,9 @@
-<!-- <h3>{{model.disaplyName}}</h3>
-<div>
-  <div class="col-xs-3">
-    <input class="form-control" ng-model="search" type="text">
-  </div>
-  <div ng-repeat="x in model.recipes | filter:search" >
-    <a href="#" class="btn btn-primary btn-lg main-btn" ng-click="events.openRecipe(x.id)">{{x.name}}</a>
-    <a href="#" class="btn btn-primary btn-lg main-btn" onclick="window.open('https://s3.amazonaws.com/weissrecipes/Soups/1.jpg', '_blank', 'location=no ,clearsessioncache=yes');">{{x.madeby}}</a>
-  </div>
 
-</div> -->
 
 <body class="recipes-body">
 <div class="table-title">
-  <div>{{model.disaplyName}}</div>
-  <!-- <input type="text"  maxlength="255" placeholder="חפש מתכון..."> -->
+    <label>{{model.disaplyName}}</label>
+    <div><input ng-model="search"  type="text"  maxlength="255" placeholder="חפש מתכון..."></div>
 </div>
 
 <table class="table-fill">

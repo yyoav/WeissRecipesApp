@@ -73,9 +73,25 @@ ul.category-list li>span {
   font-family: "Roboto", helvetica, arial, sans-serif;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
   text-transform:uppercase;
+   overflow: hidden;
 }
+.table-title label {
+    float: right;
+    margin-right: 5px;
+    width: 70%;
 
+}
+.table-title div {
+   overflow: hidden;
 
+}
+.table-title input {
+    width: 80%;
+    display: block;
+    color: rgb(102, 107, 133);
+    font-size: 14px;
+    margin-top: 7px;
+}
 /*** Table Styles **/
 
 .table-fill {
@@ -179,6 +195,7 @@ th.text-center {
 
 th.text-right {
   text-align: right;
+  padding-right: 8px;
 }
 
 td.text-left {
@@ -191,4 +208,6 @@ td.text-center {
 
 td.text-right {
   text-align: right;
+  padding-right: 8px;
+  padding-left: 8px;
 }
